@@ -1,0 +1,114 @@
+\documentclass{standalone}
+\usepackage[shortlabels]{enumitem}
+\usepackage{amsmath, amsthm, transparent, amssymb, wasysym, graphicx, quiver, tikz-cd, mathtools, nicefrac, fancyhdr}
+
+\newcommand{\Lim}[1]{\raisebox{0.5ex}{\scalebox{0.8}{$\displaystyle \lim_{#1}\;$}}}
+\newcommand{\InlineSum}[2]{\mathop{\raisebox{0.5ex}{\scalebox{0.8}{$\displaystyle \sum$}}}_{#1}^{#2}}
+
+\newcommand{\ab}{\kern 0.048em}
+\newcommand{\cd}{\kern 0.048em}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+\begin{document}
+\begin{tikzpicture}
+    \begin{scope}[yscale=-1]
+        \node[anchor=north west, inner sep=0pt] at (0,0) {{\transparent{0.2}\includegraphics{ATM.png}}};
+        \begin{scope}[xshift=1.15in]
+            \node[anchor=north west, scale=1.5] at (0, 0in) {$\pi = 
+                3\ab.1\ab4\ab1\ab5\ab9\ab2\ab6\ab5\ab3\ab5\ab8\ab9\ab7\ab9\ab3\ab2\ab3\ab8\ab4\ab6\ab2\ab6\ab4\ab3\ab3\ab8\ab3\ab2\ab7\ab9\ab5\ab0\ab2\ab8\ab8\ab4\ab1\ab9\ab7\ab1\ab6\ab9\ab3\ab9\ab9\ab3\ab7\ab5\ab1\ab0\ab5\ab8\ab2\ab0\ab9\ab7\ab4\ab9\ab4\ab4\ab5\ab9\ab2\ab3\ab0\ab7\ab8\ab1\ab6\ab4\ab0$};
+            \node[anchor=north west, scale=1.5] at (0, 0.18in) {$\frac{d}{dx}\ln(g(x)) = \frac{g'(x)}{g(x)}\;\; |G| = \sum [ G:G_{s_i} ]\;\;\int \! \cos x\, dx = \sin x + C \; \left( A-\lambda I \right)x = 0\;\;\; F_n\!=\!F_{n-1}+F_{n-2}$};
+            \node[anchor=north west, scale=1.5] at (0, 0.5in) {$|\!\left<x,y\right>\!|^2\!\le\!\left<x,x\right>\!\cdot\!\left<y,y\right>\, \oint_Cf(z)\,dz = 2\pi i\sum \text{Res}(f(z),z_k)\;\sum\binom{n}{j}\binom{m}{k - j}\!=\!\binom{m + n}{k}\,\ab\ab\ab\ab  P\!\to\!Q\equiv\neg Q\!\to\!\neg P$}; 
+            \node[anchor=north west, scale=1.5] at (0, 0.78in) {$\frac{d}{dx}f(x) = \Lim{h \to 0}\frac{f(x+h)-f(x)}{h}\;\;\; a^{p - 1}\!\equiv\!1\!\pmod{p}\;\;(x\!+\!y)^p\equiv x^p+y^p\!\pmod{p}\;\;\frac{d}{dx}\csc x = -\csc x \cot x$}; 
+            \node[anchor=north west, scale=1.5] at (0, 1.1in) {$\kern 0.03em x^2 \frac{d^2y}{dx^2}\!+\!x \frac{dy}{dx}+\!(x^2-\alpha^2)y\!=\!0\;\, \frac{\partial^2f(x,y)}{\partial x\partial y}\!=\! \frac{\partial^2 f(x,y)}{\partial y \partial x}\;\, f(a)\!=\!\frac{1}{2\pi i}\oint_{\mathcal{C}}\frac{f(z)}{z-a}\, dz\;\;\ab G/H\!=\!\{gh\ |\ g\in G\}\;\; \mathbb{Z}/2\mathbb{Z}$}; 
+        \node[anchor=north west, scale=1.551] at (0.01in, 2.9125in) {$\int_{-\infty}^{\infty}e^{-x^2}\,dx\!=\!\sqrt{\pi} $};
+        \node[anchor=north west, scale=1.505] at (0.01in, 3.25in) {$\lambda x. \ab(\sum n)^2 = \sum n^3$};
+    \node[anchor=north west, scale=1.505] at (0.01in, 3.495in) {$e^{\pi i}\!\!+\!\!1\!=\!0\, A\!\cup\!\overline{A}\!=\!U$};
+    \node[anchor=north west, scale=1.453] at (0.22in, 3.73in) {$\square(\square P\!\!\to\!\!P)\!\!\to\!\!P$};
+    \node[anchor=north west, scale=1.375] at (0.1in, 3.925in) {$\det\exp\!A\!=\!\exp \text{tr} A$};
+    \node[anchor=north west, scale=1.4] at (-0.02in, 4.15in) {$e^x\!=\!\!\sum\! \frac{x^n}{n!}$};
+    \node[anchor=north west, scale=1.4] at (-0.125in, 4.46in) {$p\!_A\!(\!A\!)\!=\!0$};
+    \node[anchor=north west, scale=1.4] at (-0.2in, 4.7in) {$K_4 \triangleleft S_4$};
+    \node[anchor=north west, scale=1.5] at (-0.319in, 4.96in) {$57\;\ab\ab \mathcal{U}$};
+    % \node[anchor=north west, scale=1.4] at (1in, 4.46in) {$\zeta(s)\!=\!\!\sum\!\frac{1}{n^s} 196884 = 196883 + 1$};
+    \node[anchor=north west, scale=1.225] at (1.225in, 4.49in) {$GL(2,\mathbb{R})$};
+    \node[anchor=north west, scale=1.4] at (1.275in, 4.7in) {$D_8 < S_4$};
+    \node[anchor=north west, scale=1.4] at (1.31in, 4.97in) {$\fullmoon = \pi R^2$};
+    \node[anchor=north west, scale=1.4] at (-0.4in, 5.225in) {$\text{Im}(f_i)\!=\!\ker(f_{i+1})\,\ab\ab M_p = 2^p - 1$};
+    \node[anchor=north west, scale=1.4] at (-0.55in, 5.49in) {$|\mathcal{O}(x)|\!=\![G\!:\!G_x]\;\; FA \cong \bigotimes \mathbb{Z}/{p_i^{e_i}}\mathbb{Z}$};
+    \node[anchor=north west, scale=1.45] at (-0.66in, 5.7in) {$t_n = n^{n-2}$};
+    \node[anchor=north west, scale=1.45] at (1.51in, 5.72in) {$\forall\!\varepsilon\!\!>\!0 \exists \delta\!\!>\!\!0$};
+    \node[anchor=north west, scale=1.53] at (-0.79in, 5.925in) {$A = LDU$};
+    \node[anchor=north west, scale=1.5] at (1.65in, 5.9in) {$E\ab =\ab mc^2$};
+    \node[anchor=north west, scale=1.5] at (1.42in, 6.077in) {$\omega_1 \ab\times \ab[0,1)$};
+    % \node[anchor=north west, scale=1.5] at (1.65in, 5.885in) {\scalebox{0.7}[0.7]{$\lim\limits_{x \to c}$}$f(x) = f(c)$};
+    \node[anchor=north west, scale=1.5] at (-1.23in, 6.079in) {$\zeta(s)\ab\ab\ab = \ab\ab\ab\sum_{n=1}^\infty\,\frac{1}{n^s}$};
+    \node[anchor=north west, scale=1.38] at (-1.225in, 6.375in) {$0\!\to\!G\!\to\!\!H\!\!\to\!K\!\!\to\!0$};
+    \node[anchor=north west, scale=1.3] at (-1.22in, 6.535in) {$\nabla\!\ab\ab=\ab\ab\!\left( \frac{\partial}{\partial x_1},\dots, \frac{\partial}{\partial x_n} \right) $};
+    \node[anchor=north west, scale=1.126] at (1in, 4.16in) {$\lim\limits_{x \rightarrow 0}\!\!\frac{\sin x}{x}\!=\!1$};
+        \end{scope} 
+        \begin{scope}[xshift=1.15in, yshift=0.45in]
+            \node[anchor=north west, scale=1.5] at (0, 1.025in) {${{n \choose k}\!=\!\frac{n!}{k!( n-k )!}}\;\kern 0.255em \chi(n)$};
+            \node[anchor=north west, scale=1.55] at (0, 1.35in) {$J_f\!=\!\frac{\partial\vec{f}}{\partial \vec{x}}\kern 0.11em a^2\!+\!b^2\!=\!c^2$};
+            \node[anchor=north west, scale=1.85] at (-0.02in, 1.75in) {$V-E+F = 2$};
+        \end{scope} 
+        \begin{scope}[xshift=8.075in, yshift=0.45in]
+            \node[anchor=north west, scale=1.71] at (0, 1in) {$\sum_{n=0}^{\infty} ar^n = \frac{a}{1-r}$};
+            \node[anchor=north west, scale=1.49] at (0.015in, 1.74in) {$a\cdot b = \norm{a}\norm{b}\cos \theta$};
+            \node[anchor=north west, scale=1.175] at (0.03in, 1.35in) {$f(x)\!=\!\!\!\sum\limits_{n=0}^{\infty}\!\frac{f^{(n)}(a)}{n!}(x-a)^n$};
+        \end{scope}   
+        \begin{scope}[xshift=4.625in, yshift=0.45in]
+            \node[anchor=north west, scale=1.575] at (0, 1in) {$\phi(n)\!=\!n\!\prod\limits_{p|n}\!\left(\!1-\frac{1}{p}\!\right)\!$};
+            \node[anchor=north west, scale=1.575] at (0.23in, 1.4in) {$\mathbb{F}$};
+            \node[anchor=north west, scale=1.5] at (0, 1.525in) {$\int_{\partial \Omega}\, \omega = \int_{\Omega}\,d\omega\;\;\, \aleph_0$};
+            \node[anchor=north west, scale=1.56] at (0, 1.8in) {$e^{i\theta}\!=\!\cos \theta+i\sin \theta$};
+            \node[anchor=north west, scale=1.71] at (-0.025in, 2.05in) {$\frac{d}{dx}\tan x = \sec^2 x$};
+            \node[anchor=north west, scale=1.55] at (0in, 2.4in) {$\sum\limits_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}6 \;\;\;\ab \delta(x)$};
+            \node[anchor=north west, scale=1.545] at (0in, 2.95in) {$\sin^2x + \cos^2x = 1$};
+            \node[anchor=north west, scale=2.2] at (-0.05in, 3.2in) {$\frac{a+b}{a} = \frac{a}{b} = \varphi$};
+            \node[anchor=north west, scale=1.4875] at (0in, 3.65in) {$\varphi = 1.61803398874$};
+            \node[anchor=north west, scale=1.86] at (0in, 3.825in) {$x\!=\!\frac{-b \pm \sqrt{b^2-4ac} }{2a}$};
+            \node[anchor=north west, scale=1.875] at (-0.015in, 4.15in) {$\sum\limits_{i=1}^{n}i\, =\, \frac{n(n\,+\,1)}{2}$};
+            \node[anchor=north west, scale=1.7] at (0.65in, 4.575in) {$\mathbb{Q}$};
+            \node[anchor=north west, scale=1.7] at (1.2875in, 4.7in) {$\mathbb{R}$};
+            \node[anchor=north west, scale=1.9] at (-0.025in, 4.75in) {$\sum\limits_{k = 0}^{n} e^{\left(\frac{2 \pi i k}{n}\right)}\ab =\ab 1$};
+            \node[anchor=north west, scale=1.575] at (-0.02in, 5.4in) {$\|fg\|_1 \le \|f\|_p \|g\|_q$};
+            \node[anchor=north west, scale=1.7] at (0.8in, 5.15in) {$\mathbb{C}$};
+            \node[anchor=north west, scale=1.27] at (0in, 5.7in) {$\|\vec{x}\|_p := \left(\sum\limits_{i=1}^n \left|x_i\right|^p\right)^{1/p}$};
+            \node[anchor=north west, scale=1.7] at (-0.025in, 6.2in) {$\frac{x}{e^x-1}=\sum\limits_{0\leq n}\frac{B_nx^n}{n!}$};
+            \node[anchor=north west, scale=1.325] at (0.01in, 6.715in) {$a^2\!-\!b^2 = \left( a\!+\!b \right)\!\left( a\!-\!b \right)  $};
+        \end{scope}   
+        \begin{scope}[xshift=3.675in, yshift=7.35in]
+            \node[anchor=north west, scale=1.5] at (-0.01in, 0in) {$(f\!*\!g)(t)\!:=\!\int_{-\infty}^\infty\!f(\tau) g(t - \tau) \, d\tau\, \nicefrac{1}{2}\square\!=\!\triangle$};
+            \node[anchor=north west, scale=1.5] at (0in, 0.25in) {$\pi(n) \sim \frac{n}{\log n} \;\;\;\, \mathcal{L}\{f\}(s)=\int_0^\infty f(t) e^{-st} \, dt$};
+            \node[anchor=north west, scale=1.5] at (-0.015in, 0.51in) {$\frac{d}{dx}f(g(x))\!=\!f'(g(x))g'(x)$};
+            \node[anchor=north west, scale=0.5] at (2.38in, 0.59in) {
+                    \begin{tikzpicture}
+                        \foreach \i in {1, 2, 3} {
+                            \node[draw, circle, line width=2pt] (left\i) at (3-\i*3,0) {};
+                        }
+
+                        \foreach \i in {1, 2, 3} {
+                            \node[draw, circle, line width=2pt] (right\i) at (3-\i*3, 1) {};
+                        }
+
+                        \foreach \i in {1, 2, 3} {
+                            \foreach \j in {1, 2, 3} {
+                                \draw[line width=1.4pt] (left\i) -- (right\j);
+                            }
+                        }
+                    \end{tikzpicture}
+                };
+                \node[anchor=north west, scale=1.515] at (-0.025in, 0.8in) {$\left(\!\frac{p}{q}\!\right)\!\!\left(\!\frac{q}{p}\!\right)\!=\!(\!-1\!)^{\frac{p-1}{2}\!\frac{q-1}{2}}\, H\!=\!-\!\!\sum\!p(x)\!\log p(x)$};
+                \node[anchor=north west, scale=1.5] at (-0.015in, 1.215in) {$(\wp')^2=\wp^3-60G_4\wp-140G_6$};
+                \node[anchor=north west, scale=1.5] at (2.77in, 1.2in) {$\uparrow\,= \{0|*\}$};
+                \node[anchor=north west, scale=1.5] at (0in, 1.52in) {$e = 2\ab.7\ab1\ab8\ab2\ab8\ab1\ab8\ab2\ab8\ab4\ab5\ab9\ab0\ab4\ab5\ab2\ab3\ab5\ab3\ab6\ab0\ab2\ab8\ab7\ab4\ab7\ab1    $};
+            \end{scope}
+            \node[anchor=north west, scale=1.5] at (1.9425in, 4.09in) {$G$};
+            \node[anchor=north west, scale=1.5] (a) at (1.325in, 4.9in) {$G/H$};
+            \node[anchor=north west, scale=1.5] (b) at (2.27in, 4.9in) {$G'$};
+            \draw[->] (2.04in,4.325in) -- (1.7795in,4.95in) node [midway, left] {$\pi$};
+            \draw[->] (2.141in,4.325in) -- (2.4105in,4.95in) node [midway, right] {$f$};
+            \draw[->] (1.85in, 5.075in) -- (2.325in, 5.075in) node [midway, below] {$\exists !\bar{f}$};
+        \end{scope}
+    \end{tikzpicture}
+    \end{document}
