@@ -12,7 +12,7 @@
 \begin{document}
 \begin{tikzpicture}
     \begin{scope}[yscale=-1]
-        % \node[anchor=north west, inner sep=0pt] at (0,0) {{\transparent{0.2}\includegraphics{ATM.png}}};
+        \node[anchor=north west, inner sep=0pt] at (0,0) {{\transparent{0.2}\includegraphics{ATM.png}}};
         \begin{scope}[xshift=1.15in]
             \node[anchor=north west, scale=1.5] at (0, 0in) {$\pi = 
                 3\ab.1\ab4\ab1\ab5\ab9\ab2\ab6\ab5\ab3\ab5\ab8\ab9\ab7\ab9\ab3\ab2\ab3\ab8\ab4\ab6\ab2\ab6\ab4\ab3\ab3\ab8\ab3\ab2\ab7\ab9\ab5\ab0\ab2\ab8\ab8\ab4\ab1\ab9\ab7\ab1\ab6\ab9\ab3\ab9\ab9\ab3\ab7\ab5\ab1\ab0\ab5\ab8\ab2\ab0\ab9\ab7\ab4\ab9\ab4\ab4\ab5\ab9\ab2\ab3\ab0\ab7\ab8\ab1\ab6\ab4\ab0$};
@@ -112,6 +112,9 @@
             \draw[->] (2.04in,4.325in) -- (1.7795in,4.95in) node [midway, left] {$\pi$};
             \draw[->] (2.141in,4.325in) -- (2.4105in,4.95in) node [midway, right] {$f$};
             \draw[->] (1.85in, 5.075in) -- (2.325in, 5.075in) node [midway, below] {$\exists !\bar{f}$};
+		\begin{scope}[xshift=6.9in, yshift=2.95in]
+			\node[anchor=north west, scale=1.5] at (0,0) {$\sum x_n e^{-i2\pi \frac{k}{N}n}$};
+		\end{scope}
         \end{scope}
     \end{tikzpicture}
     \end{document}
